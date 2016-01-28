@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://Company.ServiceModel.IPMailServiceApp" elementFormDefault="qualified" targetNamespace="http://Company.ServiceModel.IPMailServiceApp" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://hostname-lnservice:1000/IPLotusNotesMailService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Company.ServiceModel.IPMailServiceApp" />
+  <xs:element name="GetEmailAttachments">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Company.ServiceModel.IPMailServiceApp" minOccurs="0" name="email" nillable="true" type="q1:Email" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEmailAttachmentsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Company.ServiceModel.IPMailServiceApp" minOccurs="0" name="GetEmailAttachmentsResult" nillable="true" type="q2:ArrayOfAttachment" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="getAllMail" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMailResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Company.ServiceModel.IPMailServiceApp" minOccurs="0" name="GetMailResult" nillable="true" type="q3:ArrayOfEmail" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetData">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Company.ServiceModel.IPMailServiceApp" minOccurs="0" name="GetDataResult" nillable="true" type="q4:ArrayOfEmail" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetMailAsRead">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dateTime" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetMailAsReadResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SetMailAsReadResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

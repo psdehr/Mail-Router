@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mail Connector", "Mail Connector\Mail Connector.csproj", "{13AE15E4-279E-4C14-B8B1-9E85692F3FEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mail Router", "Mail Router\Mail Router.csproj", "{2D70CF55-735B-4FAD-815A-FC6FAFC69CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS Connector", "CMS Connector\CMS Connector.csproj", "{96EE63D6-B844-44D9-8B0C-6892B6F18C2E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ukhg-teamsrv01:8080/tfs/pallprojects
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CMS\u0020Connector\\CMS\u0020Connector.csproj
+		SccProjectName1 = CMS\u0020Connector
+		SccLocalPath1 = CMS\u0020Connector
+		SccProjectUniqueName2 = Mail\u0020Connector\\Mail\u0020Connector.csproj
+		SccProjectName2 = Mail\u0020Connector
+		SccLocalPath2 = Mail\u0020Connector
+		SccProjectUniqueName3 = Mail\u0020Router\\Mail\u0020Router.csproj
+		SccProjectName3 = Mail\u0020Router
+		SccLocalPath3 = Mail\u0020Router
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13AE15E4-279E-4C14-B8B1-9E85692F3FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AE15E4-279E-4C14-B8B1-9E85692F3FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AE15E4-279E-4C14-B8B1-9E85692F3FEC}.Debug|x64.ActiveCfg = Debug|x64
+		{13AE15E4-279E-4C14-B8B1-9E85692F3FEC}.Debug|x64.Build.0 = Debug|x64
+		{13AE15E4-279E-4C14-B8B1-9E85692F3FEC}.Debug|x86.ActiveCfg = Debug|x86
+		{13AE15E4-279E-4C14-B8B1-9E85692F3FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AE15E4-279E-4C14-B8B1-9E85692F3FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AE15E4-279E-4C14-B8B1-9E85692F3FEC}.Release|x64.ActiveCfg = Release|x64
+		{13AE15E4-279E-4C14-B8B1-9E85692F3FEC}.Release|x64.Build.0 = Release|x64
+		{13AE15E4-279E-4C14-B8B1-9E85692F3FEC}.Release|x86.ActiveCfg = Release|Any CPU
+		{2D70CF55-735B-4FAD-815A-FC6FAFC69CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D70CF55-735B-4FAD-815A-FC6FAFC69CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D70CF55-735B-4FAD-815A-FC6FAFC69CE9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2D70CF55-735B-4FAD-815A-FC6FAFC69CE9}.Debug|x64.Build.0 = Debug|Any CPU
+		{2D70CF55-735B-4FAD-815A-FC6FAFC69CE9}.Debug|x86.ActiveCfg = Debug|x86
+		{2D70CF55-735B-4FAD-815A-FC6FAFC69CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D70CF55-735B-4FAD-815A-FC6FAFC69CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D70CF55-735B-4FAD-815A-FC6FAFC69CE9}.Release|x64.ActiveCfg = Release|Any CPU
+		{2D70CF55-735B-4FAD-815A-FC6FAFC69CE9}.Release|x86.ActiveCfg = Release|Any CPU
+		{96EE63D6-B844-44D9-8B0C-6892B6F18C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96EE63D6-B844-44D9-8B0C-6892B6F18C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96EE63D6-B844-44D9-8B0C-6892B6F18C2E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{96EE63D6-B844-44D9-8B0C-6892B6F18C2E}.Debug|x64.Build.0 = Debug|Any CPU
+		{96EE63D6-B844-44D9-8B0C-6892B6F18C2E}.Debug|x86.ActiveCfg = Debug|x86
+		{96EE63D6-B844-44D9-8B0C-6892B6F18C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96EE63D6-B844-44D9-8B0C-6892B6F18C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96EE63D6-B844-44D9-8B0C-6892B6F18C2E}.Release|x64.ActiveCfg = Release|Any CPU
+		{96EE63D6-B844-44D9-8B0C-6892B6F18C2E}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
