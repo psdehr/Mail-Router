@@ -97,7 +97,7 @@
   <ItemGroup>
     <Reference Include="ImapX, Version=2.0.0.16, Culture=neutral, PublicKeyToken=5992873d65130d1f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\CommonDlls\ImapX.dll</HintPath>
+      <HintPath>CommonDlls\ImapX.dll</HintPath>
     </Reference>
     <Reference Include="NLog">
       <HintPath>..\packages\NLog.3.1.0.0\lib\net35\NLog.dll</HintPath>
