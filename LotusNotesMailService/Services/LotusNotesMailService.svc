@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Company.ServiceModel.LotusNotesMailService.LotusNotesMailService" CodeBehind="LotusNotesMailService.svc.cs" %>

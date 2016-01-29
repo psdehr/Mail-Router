@@ -12,7 +12,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mail Router", "Mail Router\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS Connector", "CMS Connector\CMS Connector.csproj", "{96EE63D6-B844-44D9-8B0C-6892B6F18C2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotusNotesMailService", "..\LotusNotesMailService\LotusNotesMailService\LotusNotesMailService.csproj", "{6071342D-1A37-40BC-90E8-C5973D5AE05E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotusNotesMailService", "LotusNotesMailService\LotusNotesMailService.csproj", "{6071342D-1A37-40BC-90E8-C5973D5AE05E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

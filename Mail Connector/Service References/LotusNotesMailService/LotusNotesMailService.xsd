@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://Company.ServiceModel.LotusNotesMailService.ILotusNotesMail" elementFormDefault="qualified" targetNamespace="http://Company.ServiceModel.LotusNotesMailService.ILotusNotesMail" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="http://localhost:63294/Services/LotusNotesMailService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Company.ServiceModel.LotusNotesMailService" />
+  <xs:import schemaLocation="http://localhost:7055/Services/LotusNotesMailService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Company.ServiceModel.LotusNotesMailService" />
   <xs:element name="GetEmailAttachments">
     <xs:complexType>
       <xs:sequence>
