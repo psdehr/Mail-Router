@@ -1,5 +1,5 @@
 ﻿using Mail_Connector.Domain;
-using Mail_Connector.IPLotusNotesMailService;
+using Mail_Connector.LotusNotesMailService;
 using Mail_Connector.RepositoryInterface;
 using NLog;
 using System;
@@ -29,7 +29,7 @@ namespace Mail_Connector.Repository
             {
                 using (IPLotusNotesMailClient client = new IPLotusNotesMailClient())
                 {
-                    IPLotusNotesMailService.Email[] emailsLotusNotes = client.GetMail(getAllMail);
+                    LotusNotesMailService.Email[] emailsLotusNotes = client.GetMail(getAllMail);
 
                     if (emailsLotusNotes != null)
                     {
@@ -51,7 +51,7 @@ namespace Mail_Connector.Repository
                                     {
                                         emailLotusNotes.Attachments = clientFetchAttachments.GetEmailAttachments(emailLotusNotes);
 
-                                        foreach (IPLotusNotesMailService.Attachment attachment in emailLotusNotes.Attachments)
+                                        foreach (LotusNotesMailService.Attachment attachment in emailLotusNotes.Attachments)
                                         {
                                             Domain.Attachment localAttachment = new Domain.Attachment();
                                             localAttachment.FileName = attachment.FileName;

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Mail_Connector.IPLotusNotesMailService {
+namespace Mail_Connector.LotusNotesMailService {
     using System.Runtime.Serialization;
     using System;
     
@@ -23,7 +23,7 @@ namespace Mail_Connector.IPLotusNotesMailService {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private Mail_Connector.IPLotusNotesMailService.Attachment[] AttachmentsField;
+        private Mail_Connector.LotusNotesMailService.Attachment[] AttachmentsField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string BodyField;
@@ -51,7 +51,7 @@ namespace Mail_Connector.IPLotusNotesMailService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Mail_Connector.IPLotusNotesMailService.Attachment[] Attachments {
+        public Mail_Connector.LotusNotesMailService.Attachment[] Attachments {
             get {
                 return this.AttachmentsField;
             }
@@ -232,31 +232,31 @@ namespace Mail_Connector.IPLotusNotesMailService {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://Company.ServiceModel.IPMailServiceApp", ConfigurationName="IPLotusNotesMailService.IIPLotusNotesMail")]
-    public interface IIPLotusNotesMail {
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://Company.ServiceModel.IPMailServiceApp", ConfigurationName="LotusNotesMailService.ILotusNotesMail")]
+    public interface ILotusNotesMail {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://Company.ServiceModel.IPMailServiceApp/IIPLotusNotesMail/GetEmailAttachments", ReplyAction="http://Company.ServiceModel.IPMailServiceApp/IIPLotusNotesMail/GetEmailAttachmentsRe" +
+        [System.ServiceModel.OperationContractAttribute(Action="http://Company.ServiceModel.IPMailServiceApp/ILotusNotesMail/GetEmailAttachments", ReplyAction="http://Company.ServiceModel.IPMailServiceApp/ILotusNotesMail/GetEmailAttachmentsRe" +
             "sponse")]
-        Mail_Connector.IPLotusNotesMailService.Attachment[] GetEmailAttachments(Mail_Connector.IPLotusNotesMailService.Email email);
+        Mail_Connector.LotusNotesMailService.Attachment[] GetEmailAttachments(Mail_Connector.LotusNotesMailService.Email email);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://Company.ServiceModel.IPMailServiceApp/IIPLotusNotesMail/GetMail", ReplyAction="http://Company.ServiceModel.IPMailServiceApp/IIPLotusNotesMail/GetMailResponse")]
-        Mail_Connector.IPLotusNotesMailService.Email[] GetMail(bool getAllMail);
+        [System.ServiceModel.OperationContractAttribute(Action="http://Company.ServiceModel.IPMailServiceApp/ILotusNotesMail/GetMail", ReplyAction="http://Company.ServiceModel.IPMailServiceApp/ILotusNotesMail/GetMailResponse")]
+        Mail_Connector.LotusNotesMailService.Email[] GetMail(bool getAllMail);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://Company.ServiceModel.IPMailServiceApp/IIPLotusNotesMail/GetData", ReplyAction="http://Company.ServiceModel.IPMailServiceApp/IIPLotusNotesMail/GetDataResponse")]
-        Mail_Connector.IPLotusNotesMailService.Email[] GetData();
+        [System.ServiceModel.OperationContractAttribute(Action="http://Company.ServiceModel.IPMailServiceApp/ILotusNotesMail/GetData", ReplyAction="http://Company.ServiceModel.IPMailServiceApp/ILotusNotesMail/GetDataResponse")]
+        Mail_Connector.LotusNotesMailService.Email[] GetData();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://Company.ServiceModel.IPMailServiceApp/IIPLotusNotesMail/SetMailAsRead", ReplyAction="http://Company.ServiceModel.IPMailServiceApp/IIPLotusNotesMail/SetMailAsReadResponse" +
+        [System.ServiceModel.OperationContractAttribute(Action="http://Company.ServiceModel.IPMailServiceApp/ILotusNotesMail/SetMailAsRead", ReplyAction="http://Company.ServiceModel.IPMailServiceApp/ILotusNotesMail/SetMailAsReadResponse" +
             "")]
         bool SetMailAsRead(System.DateTime dateTime);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IIPLotusNotesMailChannel : Mail_Connector.IPLotusNotesMailService.IIPLotusNotesMail, System.ServiceModel.IClientChannel {
+    public interface ILotusNotesMailChannel : Mail_Connector.LotusNotesMailService.ILotusNotesMail, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class IPLotusNotesMailClient : System.ServiceModel.ClientBase<Mail_Connector.IPLotusNotesMailService.IIPLotusNotesMail>, Mail_Connector.IPLotusNotesMailService.IIPLotusNotesMail {
+    public partial class IPLotusNotesMailClient : System.ServiceModel.ClientBase<Mail_Connector.LotusNotesMailService.ILotusNotesMail>, Mail_Connector.LotusNotesMailService.ILotusNotesMail {
         
         public IPLotusNotesMailClient() {
         }
@@ -277,15 +277,15 @@ namespace Mail_Connector.IPLotusNotesMailService {
                 base(binding, remoteAddress) {
         }
         
-        public Mail_Connector.IPLotusNotesMailService.Attachment[] GetEmailAttachments(Mail_Connector.IPLotusNotesMailService.Email email) {
+        public Mail_Connector.LotusNotesMailService.Attachment[] GetEmailAttachments(Mail_Connector.LotusNotesMailService.Email email) {
             return base.Channel.GetEmailAttachments(email);
         }
         
-        public Mail_Connector.IPLotusNotesMailService.Email[] GetMail(bool getAllMail) {
+        public Mail_Connector.LotusNotesMailService.Email[] GetMail(bool getAllMail) {
             return base.Channel.GetMail(getAllMail);
         }
         
-        public Mail_Connector.IPLotusNotesMailService.Email[] GetData() {
+        public Mail_Connector.LotusNotesMailService.Email[] GetData() {
             return base.Channel.GetData();
         }
         

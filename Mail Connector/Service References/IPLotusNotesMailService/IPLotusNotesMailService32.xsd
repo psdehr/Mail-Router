@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://Company.ServiceModel.IPMailServiceApp" elementFormDefault="qualified" targetNamespace="http://Company.ServiceModel.IPMailServiceApp" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="http://hostname-lnservice:1000/IPLotusNotesMailService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Company.ServiceModel.IPMailServiceApp" />
+  <xs:import schemaLocation="http://hostname-lnservice:1000/LotusNotesMailService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Company.ServiceModel.IPMailServiceApp" />
   <xs:element name="GetEmailAttachments">
     <xs:complexType>
       <xs:sequence>

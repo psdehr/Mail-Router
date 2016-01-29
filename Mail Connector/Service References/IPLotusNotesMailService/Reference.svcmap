@@ -18,15 +18,15 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://hostname-lnservice:1000/IPLotusNotesMailService.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://hostname-lnservice:1000/LotusNotesMailService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="IPLotusNotesMailService2.wsdl" MetadataType="Wsdl" ID="f7db91e4-2d12-441f-8641-c6c0f7581bcd" SourceId="1" SourceUrl="http://hostname-lnservice:1000/IPLotusNotesMailService.svc?wsdl=wsdl0" />
-    <MetadataFile FileName="IPLotusNotesMailService3.xsd" MetadataType="Schema" ID="93a2537d-b4a8-4532-88ac-2fb1f65e007a" SourceId="1" SourceUrl="http://hostname-lnservice:1000/IPLotusNotesMailService.svc?xsd=xsd2" />
-    <MetadataFile FileName="IPLotusNotesMailService21.wsdl" MetadataType="Wsdl" ID="4905804c-657e-4358-913d-62cdf0199aa5" SourceId="1" SourceUrl="http://hostname-lnservice:1000/IPLotusNotesMailService.svc?wsdl" />
-    <MetadataFile FileName="IPLotusNotesMailService31.xsd" MetadataType="Schema" ID="bde87327-1221-4b03-99a4-71020af4eb4b" SourceId="1" SourceUrl="http://hostname-lnservice:1000/IPLotusNotesMailService.svc?xsd=xsd1" />
-    <MetadataFile FileName="IPLotusNotesMailService32.xsd" MetadataType="Schema" ID="feb857e4-e6a3-4259-96f6-b5d9f2db1fdd" SourceId="1" SourceUrl="http://hostname-lnservice:1000/IPLotusNotesMailService.svc?xsd=xsd0" />
-    <MetadataFile FileName="IPLotusNotesMailService1.disco" MetadataType="Disco" ID="4949f93d-afe7-4313-b0a0-5a279d4eccb0" SourceId="1" SourceUrl="http://hostname-lnservice:1000/IPLotusNotesMailService.svc?disco" />
+    <MetadataFile FileName="LotusNotesMailService2.wsdl" MetadataType="Wsdl" ID="f7db91e4-2d12-441f-8641-c6c0f7581bcd" SourceId="1" SourceUrl="http://hostname-lnservice:1000/LotusNotesMailService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="LotusNotesMailService3.xsd" MetadataType="Schema" ID="93a2537d-b4a8-4532-88ac-2fb1f65e007a" SourceId="1" SourceUrl="http://hostname-lnservice:1000/LotusNotesMailService.svc?xsd=xsd2" />
+    <MetadataFile FileName="LotusNotesMailService21.wsdl" MetadataType="Wsdl" ID="4905804c-657e-4358-913d-62cdf0199aa5" SourceId="1" SourceUrl="http://hostname-lnservice:1000/LotusNotesMailService.svc?wsdl" />
+    <MetadataFile FileName="LotusNotesMailService31.xsd" MetadataType="Schema" ID="bde87327-1221-4b03-99a4-71020af4eb4b" SourceId="1" SourceUrl="http://hostname-lnservice:1000/LotusNotesMailService.svc?xsd=xsd1" />
+    <MetadataFile FileName="LotusNotesMailService32.xsd" MetadataType="Schema" ID="feb857e4-e6a3-4259-96f6-b5d9f2db1fdd" SourceId="1" SourceUrl="http://hostname-lnservice:1000/LotusNotesMailService.svc?xsd=xsd0" />
+    <MetadataFile FileName="LotusNotesMailService1.disco" MetadataType="Disco" ID="4949f93d-afe7-4313-b0a0-5a279d4eccb0" SourceId="1" SourceUrl="http://hostname-lnservice:1000/LotusNotesMailService.svc?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
