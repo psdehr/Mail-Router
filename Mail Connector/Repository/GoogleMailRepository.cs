@@ -4,11 +4,7 @@ using Mail_Connector.Domain;
 using Mail_Connector.RepositoryInterface;
 using NLog;
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Text;
 
 namespace Mail_Connector.Repository
 {

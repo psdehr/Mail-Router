@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="42027ee6-dab9-46b3-aa65-a1c25bad791b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:63294/Services/LotusNotesMailService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LotusNotesMailService.wsdl" MetadataType="Wsdl" ID="a3d4dfda-9fc7-4b01-a0d3-69c2d530eeee" SourceId="1" SourceUrl="http://localhost:63294/Services/LotusNotesMailService.svc?wsdl" />
+    <MetadataFile FileName="LotusNotesMailService1.wsdl" MetadataType="Wsdl" ID="35b4b08b-bbe9-4208-b06f-f225b3353be6" SourceId="1" SourceUrl="http://localhost:63294/Services/LotusNotesMailService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="LotusNotesMailService.xsd" MetadataType="Schema" ID="3afdd81e-728b-4738-80a4-9234f3a3c7c1" SourceId="1" SourceUrl="http://localhost:63294/Services/LotusNotesMailService.svc?xsd=xsd0" />
+    <MetadataFile FileName="LotusNotesMailService1.xsd" MetadataType="Schema" ID="5a95306e-6e37-4edd-a5ac-416b929ae070" SourceId="1" SourceUrl="http://localhost:63294/Services/LotusNotesMailService.svc?xsd=xsd1" />
+    <MetadataFile FileName="LotusNotesMailService.disco" MetadataType="Disco" ID="e9fe3d61-ee44-457b-ba5c-62c7af8c303a" SourceId="1" SourceUrl="http://localhost:63294/Services/LotusNotesMailService.svc?disco" />
+    <MetadataFile FileName="LotusNotesMailService2.xsd" MetadataType="Schema" ID="3de6134f-6a8d-4b58-bdc6-653440d7626c" SourceId="1" SourceUrl="http://localhost:63294/Services/LotusNotesMailService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

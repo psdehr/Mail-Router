@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="/DFe2rdeu7hdx/fhHd9Sr26dy1A=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="K84BXqAnSmgAUJLE4LHmjC8lqJA=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_ILotusNotesMail">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_ILotusNotesMail" contract="LotusNotesMailService.ILotusNotesMail" bindingType="basicHttpBinding" address="http://hostname-lnservice:1000/LotusNotesMailService.svc" bindingConfiguration="BasicHttpBinding_ILotusNotesMail">
+    <endpoint name="BasicHttpBinding_ILotusNotesMail" contract="LotusNotesMailService.ILotusNotesMail" bindingType="basicHttpBinding" address="http://localhost:63294/Services/LotusNotesMailService.svc" bindingConfiguration="BasicHttpBinding_ILotusNotesMail">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://hostname-lnservice:1000/LotusNotesMailService.svc</serializedValue>
+          <serializedValue>http://localhost:63294/Services/LotusNotesMailService.svc</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

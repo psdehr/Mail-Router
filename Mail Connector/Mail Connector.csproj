@@ -122,7 +122,7 @@
     <Compile Include="Repository\GoogleMailRepository.cs" />
     <Compile Include="Repository\LotusNotesMailRepository.cs" />
     <Compile Include="Repository\TestMailRepository.cs" />
-    <Compile Include="Service References\IPLotusNotesMailService\Reference.cs">
+    <Compile Include="Service References\LotusNotesMailService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -132,41 +132,43 @@
     <Content Include="NLog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="Service References\IPLotusNotesMailService\IPLotusNotesMailService1.disco" />
-    <None Include="Service References\IPLotusNotesMailService\IPLotusNotesMailService2.wsdl" />
-    <None Include="Service References\IPLotusNotesMailService\IPLotusNotesMailService21.wsdl" />
-    <None Include="Service References\IPLotusNotesMailService\IPLotusNotesMailService3.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\IPLotusNotesMailService\IPLotusNotesMailService31.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\IPLotusNotesMailService\IPLotusNotesMailService32.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\IPLotusNotesMailService\Mail_Connector.IPLotusNotesMailService.Attachment.datasource">
+    <None Include="Service References\LotusNotesMailService\Mail_Connector.LotusNotesMailService.Attachment.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\IPLotusNotesMailService\Mail_Connector.IPLotusNotesMailService.Email.datasource">
+    <None Include="Service References\LotusNotesMailService\Mail_Connector.LotusNotesMailService.Email.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\IPLotusNotesMailService\Reference.svcmap">
+    <None Include="Service References\LotusNotesMailService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <None Include="Service References\IPLotusNotesMailService\configuration.svcinfo" />
-    <None Include="Service References\IPLotusNotesMailService\configuration91.svcinfo" />
-    <None Include="app.config" />
+    <None Include="Service References\LotusNotesMailService\configuration.svcinfo" />
+    <None Include="Service References\LotusNotesMailService\configuration91.svcinfo" />
+    <None Include="Service References\LotusNotesMailService\LotusNotesMailService.disco" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="NLog.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
+    <None Include="Service References\LotusNotesMailService\LotusNotesMailService.wsdl" />
+    <None Include="Service References\LotusNotesMailService\LotusNotesMailService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LotusNotesMailService\LotusNotesMailService1.wsdl" />
+    <None Include="Service References\LotusNotesMailService\LotusNotesMailService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LotusNotesMailService\LotusNotesMailService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\IPLotusNotesMailService\" />
+    <WCFMetadataStorage Include="Service References\LotusNotesMailService\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />

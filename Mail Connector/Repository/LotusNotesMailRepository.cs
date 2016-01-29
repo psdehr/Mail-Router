@@ -1,12 +1,10 @@
-﻿using Mail_Connector.Domain;
-using Mail_Connector.LotusNotesMailService;
-using Mail_Connector.RepositoryInterface;
-using NLog;
+﻿using NLog;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.ServiceModel;
-using System.Text; 
+using Mail_Connector.Domain;
+using Mail_Connector.RepositoryInterface;
+using Mail_Connector.LotusNotesMailService;
 
 namespace Mail_Connector.Repository
 {
@@ -27,7 +25,7 @@ namespace Mail_Connector.Repository
 
             try
             {
-                using (IPLotusNotesMailClient client = new IPLotusNotesMailClient())
+                using (LotusNotesMailClient client = new LotusNotesMailClient())
                 {
                     LotusNotesMailService.Email[] emailsLotusNotes = client.GetMail(getAllMail);
 
@@ -47,7 +45,7 @@ namespace Mail_Connector.Repository
                             {
                                 try
                                 {
-                                    using (IPLotusNotesMailClient clientFetchAttachments = new IPLotusNotesMailClient())
+                                    using (LotusNotesMailClient clientFetchAttachments = new LotusNotesMailClient())
                                     {
                                         emailLotusNotes.Attachments = clientFetchAttachments.GetEmailAttachments(emailLotusNotes);
 
